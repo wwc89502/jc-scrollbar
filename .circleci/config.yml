@@ -3,18 +3,10 @@ version: 2.1
 orbs:
   node: circleci/node@5.0.2
 
-jobs:
-build-job:
-  docker:
-    # replace with your preferred image
-    - image: cimg/base:stable
-  steps:
-    - node/install:
-        install-yarn: true 
-
 workflows:
   build-workflow:
     jobs:
       - node/run:
+          override-ci-command: yarn install --frozen-lockfile
           npm-run: build
 
