@@ -1,3 +1,8 @@
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/wwc89502/scrollbar/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/wwc89502/scrollbar/tree/master)
+[![npm package](https://img.shields.io/npm/v/scrollbar.svg?style=flat-square)](https://www.npmjs.com/package/scrollbar)
+[![NPM downloads](http://img.shields.io/npm/dm/scrollbar.svg?style=flat-square)](https://www.npmjs.com/package/scrollbar)
+[![License](https://img.shields.io/npm/l/scrollbar.svg)](https://www.npmjs.com/package/scrollbar)
+
 # Scrollbar
 > 灵感来源于element-ui的el-scrollbar组件
 > 
