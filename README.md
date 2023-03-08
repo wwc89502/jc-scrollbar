@@ -19,7 +19,7 @@
 
 <script src="/dist/jc-scrollbar.iife.js"></script>
 <script>
-  window.CustomElement.register('jc-scrollbar') // register方法设置自定义标签名，默认 scroll-bar
+  window.CustomElement.register('jc-scrollbar') // register方法设置自定义标签名，默认 jc-scrollbar
 </script>
 ```
 
