@@ -1,9 +1,9 @@
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/wwc89502/scrollbar/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/wwc89502/scrollbar/tree/master)
-[![npm package](https://img.shields.io/npm/v/scrollbar.svg?style=flat-square)](https://www.npmjs.com/package/scrollbar)
-[![NPM downloads](http://img.shields.io/npm/dm/scrollbar.svg?style=flat-square)](https://www.npmjs.com/package/scrollbar)
-[![License](https://img.shields.io/npm/l/scrollbar.svg)](https://www.npmjs.com/package/scrollbar)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/wwc89502/jc-scrollbar/tree/master.svg?style=svg&circle-token=7ab5aa815cb2f135636a1839259bf768b8d7bdbe)](https://dl.circleci.com/status-badge/redirect/gh/wwc89502/jc-scrollbar/tree/master)
+[![npm package](https://img.shields.io/npm/v/jc-scrollbar.svg?style=flat-square)](https://www.npmjs.com/package/jc-scrollbar)
+[![NPM downloads](http://img.shields.io/npm/dm/jc-scrollbar.svg?style=flat-square)](https://www.npmjs.com/package/jc-scrollbar)
+[![License](https://img.shields.io/npm/l/jc-scrollbar.svg)](https://www.npmjs.com/package/jc-scrollbar)
 
-# Scrollbar
+# JcScrollbar
 > 灵感来源于element-ui的el-scrollbar组件
 > 
 > 作为Web Components，不依赖任何前端框架，即便是最普通的html页面也可以使用
@@ -13,25 +13,25 @@
 #### script标签
 
 ```html
-<scroll-bar wrap-style="height: 100vh;">
+<jc-scrollbar wrap-style="height: 100vh;">
   <!-- 内容块 -->
-</scroll-bar>
+</jc-scrollbar>
 
-<script src="/dist/scrollbar.iife.js"></script>
+<script src="/dist/jc-scrollbar.iife.js"></script>
 <script>
-  window.CustomElement.register('scroll-bar') // register方法设置自定义标签名，默认 scroll-bar
+  window.CustomElement.register('jc-scrollbar') // register方法设置自定义标签名，默认 scroll-bar
 </script>
 ```
 
 #### vue
 
 ```vue
-import { register } from '/dist/scrollbar.es.js'
-register('scroll-bar')
+import { register } from '/dist/jc-scrollbar.es.js'
+register('jc-scrollbar')
 
-<scroll-bar wrap-style="height: 100vh;">
+<jc-scrollbar wrap-style="height: 100vh;">
 <!-- 内容块 -->
-</scroll-bar>
+</jc-scrollbar>
 ```
 
 #### react

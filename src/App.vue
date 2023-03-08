@@ -1,38 +1,38 @@
 <script setup>
 import { register } from './CustomElement';
 
-register('scroll-bar')
+register('jc-scrollbar')
 </script>
 
 <template>
-  <scroll-bar wrap-style="height: 100vh;">
+  <jc-scrollbar wrap-style="height: 100vh;">
     <div id="content" >
       XY
-      <scroll-bar wrap-style="height: 200px">
+      <jc-scrollbar wrap-style="height: 200px">
         <div class="box"></div>
-      </scroll-bar>
+      </jc-scrollbar>
       <br/>
-      <scroll-bar native="true" wrap-style="height: 200px">
+      <jc-scrollbar native="true" wrap-style="height: 200px">
         <div class="box"></div>
-      </scroll-bar>
+      </jc-scrollbar>
       X
-      <scroll-bar direction="x" wrap-style="height: 200px">
+      <jc-scrollbar direction="x" wrap-style="height: 200px">
         <div class="box"></div>
-      </scroll-bar>
+      </jc-scrollbar>
       <br/>
-      <scroll-bar native="true" direction="x" wrap-style="height: 200px">
+      <jc-scrollbar native="true" direction="x" wrap-style="height: 200px">
         <div class="box"></div>
-      </scroll-bar>
+      </jc-scrollbar>
       Y
-      <scroll-bar direction="y" wrap-style="height: 200px">
+      <jc-scrollbar direction="y" wrap-style="height: 200px">
         <div class="box"></div>
-      </scroll-bar>
+      </jc-scrollbar>
       <br/>
-      <scroll-bar native="true" direction="y" wrap-style="height: 200px">
+      <jc-scrollbar native="true" direction="y" wrap-style="height: 200px">
         <div class="box"></div>
-      </scroll-bar>
+      </jc-scrollbar>
     </div>
-  </scroll-bar>
+  </jc-scrollbar>
 </template>
 
 <style>

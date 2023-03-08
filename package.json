@@ -1,10 +1,9 @@
 {
-  "name": "scrollbar",
-  "version": "0.1.0",
+  "name": "jc-scrollbar",
+  "version": "0.1.1",
   "description": "自定义滚动条组件",
   "main": "dist/index.es.js",
   "private": true,
-  "version": "0.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -13,10 +12,10 @@
   "dependencies": {
     "vue": "^3.2.25"
   },
-  "homepage": "https://github.com/wwc89502/scrollbar#readme",
+  "homepage": "https://github.com/wwc89502/jc-scrollbar#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wwc89502/scrollbar.git"
+    "url": "git+https://github.com/wwc89502/jc-scrollbar.git"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.2.0",
