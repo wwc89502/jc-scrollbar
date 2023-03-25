@@ -2,7 +2,7 @@
   "name": "jc-scrollbar",
   "version": "0.1.18",
   "description": "自定义滚动条组件",
-  "main": "dist/index.es.js",
+  "main": "dist/jc-scrollbar.es.js",
   "private": true,
   "scripts": {
     "test": "echo \"No test specified\"",
