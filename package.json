@@ -1,6 +1,6 @@
 {
   "name": "jc-scrollbar",
-  "version": "0.1.17",
+  "version": "0.1.18",
   "description": "自定义滚动条组件",
   "main": "dist/index.es.js",
   "private": true,
